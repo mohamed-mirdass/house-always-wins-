@@ -1,0 +1,17 @@
+{
+  "name": "royal-spin",
+  "version": "3.0.0",
+  "description": "Casino multijoueur en points virtuels (Node.js, compatible Vercel + Upstash Redis)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.41.0",
+    "express": "^4.19.2",
+    "qrcode": "^1.5.3"
+  }
+}
